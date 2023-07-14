@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p, a{
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.h {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    background-image: url("../styles/minecraft.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #FFFFFF;
+    height: 38vh;
+}
+
+.h__titulo{
+    font-weight: 700;
+    font-size: 52px;
+}
+
+.h__paragrafo{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.h__back{
+    text-decoration: none;
+    color: #ffffff;
+    border: 2px solid #FFFFFF;
+    padding: 12px;
+}
+
+.h__back:hover{
+    color: #0f0f0f;
+    background-color: #FFFFFF;
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right, #dcdcdc, #fff2dc);
+}
+
+.pEasy{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5vh 5%;
+}
+.pEasy__mock1{
+    width: 35%;
+    padding: 0 5%;
+}
+
+.pEasy__text{
+    width: 45%;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+
+.pEasy__text__p{
+    font-size: 18px;
+    color: #2baf90;
+}
+
+.pEasy__text__titulo{
+    font-size: 46px;
+    color: #2baf90;
+}
+
+.pEasy__text__mock2{
+    width: 90%;
+    border-radius: 20px;
+    margin: 5vh 0;
+}
+
+.pEasy2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5vh 5%;
+    color: #2baf90;
+}
+
+.pEasy2__text{
+    width: 35%;
+    padding: 0 5%; 
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.pEasy2__text__titulo{
+    font-size: 22px;
+    padding: 2vh 0;
+}
+
+.text__Button{
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    width: 50%;
+    border: 4px solid #28c6a0;
+    color: #ffffff;
+    background-color: #2baf90;
+    padding: 4px;
+}
+
+.text__Button:hover{
+    border: 4px solid #28c6a0;
+    color: #2baf90;
+    background-color: #ffffff;
+}
+
+.pEasy2__cont{
+    width: 45%;
+    padding: 0 5%;    
+}
+
+.pEasy2__cont__mock3{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.videoFrame{
+    padding: 0 20%;
+    width: 60%;
+    aspect-ratio: 16/9;
+    border: none;
+}
+
+@media screen and (max-width: 840px){
+    .h {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+        height: 33vh;
+    }
+    
+    .h__titulo{
+        font-weight: 700;
+        font-size: 36px;
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+
+    .pEasy{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5vh;
+        padding: 5vh 5%;
+        background-image: linear-gradient(to right, #dcdcdc, #fff2dc);
+    }
+
+    .pEasy__mock1{
+        width: 84%;
+    }
+    
+    .pEasy__text{
+        width: 94%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 2vh;
+    }
+    
+    .pEasy__text__p{
+        font-size: 16px;
+    }
+    
+    .pEasy__text__titulo{
+        font-size: 42px;
+    }
+    
+    .pEasy__text__mock2{
+        width: 100%;
+    }
+
+    .pEasy2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5vh;
+        padding: 0 5%;
+        color: #2baf90;
+    }
+
+    .pEasy2__text{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 1vh;
+        align-items: center;
+    }
+
+    .pEasy2__text__titulo{
+        font-size: 22px;
+    }
+
+    .pEasy2__text__butao{
+        width: 45vw;
+    }
+
+    .text__Button{
+        text-decoration: none;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        width: 100%;
+        padding: 4px;
+    }
+
+    .pEasy2__cont{
+        width: 85%;
+        padding: 0 5%;    
+    }
+
+}
